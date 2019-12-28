@@ -15,7 +15,7 @@
 // const Player = require('./src/Player').Player;
 
 // Game model
-// const Game = require('./src/Game').Game;
+const Game = require('./src/Game').Game;
 
 /***************
  * * FUNCTIONS *
@@ -31,7 +31,10 @@
   //
   console.log("\n --- BLACKJACK --- \n");
   // Create new game
-  //
+  // const game = new Game();
+  // Start game
+  // game.play();
+  new Game().play();
   // Create dealer and player
   // let dealer = new Player();
   // let player = new Player();

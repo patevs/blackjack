@@ -31,26 +31,12 @@ class Player {
   }
 }
 
-/*
-class Model extends Player {
-  constructor(hand, name) {
-    super(hand);
-    this._name = name;
-  }
-  show() {
-    return this.present() + ', name is ' + this._name;
-  }
-  get name() {
-    return this._name;
-  }
-  set name(x) {
-    this._name = x;
-  }
-}
-*/
+/*************
+ * * EXPORTS *
+ *************/
 
-// Usage:
-// player = new Player(["card0", "card1"]);
-// console.log(player.present());
+module.exports = {
+  Player
+};
 
 // EOF //

@@ -15,15 +15,23 @@
 // Deck of cards
 const doc = require('./Deck');
 
+// Player model
+const Player = require('./Player').Player;
+
 /****************
  * * GAME CLASS *
  ****************/
 
 class Game {
-  // constructor() { }
+  constructor() {
+    this._deck = doc.randomizedDeck();
+    this._dealer = new Player();
+    this._player = new Player();
+  }
   // Functions
   play() {
     console.log("\nPlaying game...\n");
+    // Deal a hand
     // this.dealHand();
   }
   dealHand() {
@@ -33,17 +41,25 @@ class Game {
     this._deck.pop();
     // console.log(deck.length);
 
-    let playerHand = [];
-    let dealerHand = [];
+    // Deal to player first
+    this._player.hand(this._deck.pop());
+    this._dealer.hand(this._deck.pop());
+    this._player.hand(this._deck.pop());
+    this._dealer.hand(this._deck.pop());
+
+    console.log(_player.hand());
+
+    // let playerHand = [];
+    // let dealerHand = [];
 
     // Deal the cards
-    playerHand.push(this._deck.pop());
-    dealerHand.push(this._deck.pop());
-    playerHand.push(this._deck.pop());
-    dealerHand.push(this._deck.pop());
+    // playerHand.push(this._deck.pop());
+    // dealerHand.push(this._deck.pop());
+    // playerHand.push(this._deck.pop());
+    // dealerHand.push(this._deck.pop());
 
     // console.log(playerHand);
-    this.showHands(dealerHand, playerHand);
+    // this.showHands(dealerHand, playerHand);
   }
   showHands(dealer, player) {
     console.log("Your Hand : " + player);
