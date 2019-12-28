@@ -4,11 +4,7 @@
 	"description": "blackjack",
 	"author": "patevs",
 	"license": "MIT",
-	"repository": "patevs/blackjack",
-	"bin": "cli.js",
-	"engines": {
-		"node": ">=8"
-	},
+	"repository": "https://github.com/patevs/blackjack.git",
 	"scripts": {
 		"start": "node index.js",
 		"test": "xo && ava"
