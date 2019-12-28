@@ -10,7 +10,7 @@
 		"node": ">=8"
 	},
 	"scripts": {
-    "start": "node index.js",
+		"start": "node index.js",
 		"test": "xo && ava"
 	},
 	"dependencies": {
@@ -23,12 +23,16 @@
 		"eslint-plugin-prettier": "^3.1.2",
 		"prettier": "^1.19.1",
 		"xo": "^0.24.0"
-  },
-  "eslint": {
-    "extends": ["plugin:prettier/recommended"],
-    "plugins": ["prettier"],
-    "rules": {
-      "prettier/prettier": "error"
-    }
-  }
+	},
+	"eslint": {
+		"extends": [
+			"plugin:prettier/recommended"
+		],
+		"plugins": [
+			"prettier"
+		],
+		"rules": {
+			"prettier/prettier": "error"
+		}
+	}
 }
