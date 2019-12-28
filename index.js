@@ -31,18 +31,19 @@ const setup = () => {
 }
 */
 
-const loop = () => {
+const playGame = () => {
 	// ..
 	// let hand = 0;
   // Shuffle deck
   let deck = doc.randomizedDeck();
-  while(playing && deck.length > 8){
+  dealHand(deck);
+  // while(playing && deck.length > 8){
 		// hand++;
     // console.log("Hand Number : " + hand);
     // let card = deck.pop();
 		// console.log(card);
-    dealHand(deck);
-  }
+    // dealHand(deck);
+  // }
 	// ..
 };
 
@@ -64,12 +65,13 @@ const dealHand = (deck) => {
   playerHand.push(deck.pop());
   dealerHand.push(deck.pop());
 
-  playHand(dealerHand, playerHand);
+  // playHand(dealerHand, playerHand);
 
-  // console.log(playerHand);
+  console.log(playerHand);
   // ..
 };
 
+/*
 const playHand = (dealer, player) => {
   //
   // console.log(playerHand);
@@ -88,8 +90,8 @@ const playHand = (dealer, player) => {
     console.log(`You ${name}!`)
     readline.close()
   })
-
 };
+*/
 
 /*
 const dealHand = (deck) => {
@@ -114,7 +116,7 @@ const dealHand = (deck) => {
 	// let deck = doc.randomizedDeck();
 	// console.log(deck);
 	// console.log(deck[0]);
-	loop();
+	playGame();
 })();
 
 /*
