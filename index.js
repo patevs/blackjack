@@ -15,21 +15,12 @@ const doc = require('./src/deck');
  * * GLOBALS *
  *************/
 
-let playing = true;
-
-let hand = 0;
+// let playing = true;
+// let hand = 0;
 
 /***************
  * * FUNCTIONS *
  ***************/
-
-/*
-const setup = () => {
-	// ..
-	//
-	// ..
-}
-*/
 
 const playGame = () => {
 	// ..
@@ -50,8 +41,8 @@ const playGame = () => {
 const dealHand = (deck) => {
   // ..
   // if(deck.length < 9) process.exit();
-  hand++;
-  console.log("\n Hand Number : " + hand + "\n");
+  // hand++;
+  // console.log("\n Hand Number : " + hand + "\n");
   // burn a card
   deck.pop();
   // console.log(deck.length);
