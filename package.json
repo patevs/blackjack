@@ -1,8 +1,8 @@
 {
 	"name": "blackjack",
 	"version": "0.0.0",
-    "description": "blackjack",
-    "author": "patevs",
+	"description": "blackjack",
+	"author": "patevs",
 	"license": "MIT",
 	"repository": "patevs/blackjack",
 	"bin": "cli.js",
