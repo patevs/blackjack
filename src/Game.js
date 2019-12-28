@@ -12,20 +12,19 @@
  * * IMPORTS *
  *************/
 
-//
+// Deck of cards
+const doc = require('./Deck');
 
 /****************
  * * GAME CLASS *
  ****************/
 
 class Game {
-  constructor(deck) {
-    this._deck = deck;
-  }
+  // constructor() { }
   // Functions
   play() {
     console.log("\nPlaying game...\n");
-    this.dealHand();
+    // this.dealHand();
   }
   dealHand() {
     // Handle edge cases
