@@ -17,6 +17,10 @@ class Game {
     this._deck = deck;
   }
   // Functions
+  play() {
+    console.log("\nPlaying game...\n");
+  }
+  // Getters & Setters
   get deck() {
     return this._deck;
   }
