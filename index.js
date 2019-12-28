@@ -36,7 +36,7 @@ const loop = () => {
 	// let hand = 0;
   // Shuffle deck
   let deck = doc.randomizedDeck();
-  while(playing && deck.length > 0){
+  while(playing && deck.length > 8){
 		// hand++;
     // console.log("Hand Number : " + hand);
     // let card = deck.pop();
@@ -48,7 +48,7 @@ const loop = () => {
 
 const dealHand = (deck) => {
   // ..
-  if(deck.length < 9) process.exit();
+  // if(deck.length < 9) process.exit();
   hand++;
   console.log("\n Hand Number : " + hand + "\n");
   // burn a card
