@@ -64,6 +64,7 @@ const dealHand = (deck) => {
   let deck = doc.randomizedDeck();
   // Create new game
   let game = new Game(deck);
+  game.play();
   //
 })();
 
