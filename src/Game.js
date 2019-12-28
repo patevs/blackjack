@@ -8,6 +8,12 @@
 
 'use-strict'
 
+/*************
+ * * IMPORTS *
+ *************/
+
+const Utils = require('./Utils').Utils;
+
 /****************
  * * GAME CLASS *
  ****************/
@@ -43,6 +49,7 @@ class Game {
   showHands(dealer, player) {
     // Calculate hand value
     console.log("Your Hand : " + player);
+    console.log("Dealer's Hand : " + dealer);
   }
   // Getters & Setters
   get deck() {

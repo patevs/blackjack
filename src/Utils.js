@@ -49,4 +49,8 @@ class Utils {
   }
 }
 
+module.exports = {
+  Utils
+};
+
 // EOF //
