@@ -19,6 +19,30 @@ class Game {
   // Functions
   play() {
     console.log("\nPlaying game...\n");
+    this.dealHand();
+  }
+  dealHand() {
+    // Handle edge cases
+    // if(deck.length < 9) process.exit();
+    // Burn a card
+    this._deck.pop();
+    // console.log(deck.length);
+
+    let playerHand = [];
+    let dealerHand = [];
+
+    // Deal the cards
+    playerHand.push(this._deck.pop());
+    dealerHand.push(this._deck.pop());
+    playerHand.push(this._deck.pop());
+    dealerHand.push(this._deck.pop());
+
+    // console.log(playerHand);
+    this.showHands(dealerHand, playerHand);
+  }
+  showHands(dealer, player) {
+    // Calculate hand value
+    console.log("Your Hand : " + player);
   }
   // Getters & Setters
   get deck() {
