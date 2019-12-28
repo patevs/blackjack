@@ -13,6 +13,8 @@
 // Game model
 // const Game = require('./src/Game').Game;
 
+const Player = require('./src/Player').Player;
+
 /***************
  * * FUNCTIONS *
  ***************/
@@ -26,7 +28,8 @@
 (() => {
   //
   console.log("\n --- BLACKJACK --- \n");
-  // playGame();
+  // Create dealer and player
+  let dealer = new Player();
   // Shuffle deck
   // let deck = doc.randomizedDeck();
   // Create new game

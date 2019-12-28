@@ -13,8 +13,9 @@
  ******************/
 
 class Player {
-  constructor(hand) {
-    this._hand = hand;
+  constructor() {
+    // this._hand = hand;
+    this._hand = [];
     this._actions = [];
     this._history = [];
   }
