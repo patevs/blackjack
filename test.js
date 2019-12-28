@@ -1,3 +1,7 @@
+/**
+ *  * test.js
+ */
+
 import test from 'ava';
 import blackjack from '.';
 
@@ -11,3 +15,5 @@ test('title', t => {
 
 	t.is(blackjack('unicorns'), 'unicorns & rainbows');
 });
+
+// EOF //
