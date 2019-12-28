@@ -32,13 +32,14 @@ const setup = () => {
 const loop = () => {
 	// ..
 	let hand = 0;
-	let deck = doc.randomizedDeck();
 	while(playing && deck.length > 0){
 		hand++;
-		console.log("Hand Number : " + hand);
-		// let card = deck.pop();
-		// console.log(card);
-    dealHand(deck);
+    console.log("Hand Number : " + hand);
+    // Shuffle deck
+    let deck = doc.randomizedDeck();
+		let card = deck.pop();
+		console.log(card);
+    // dealHand(deck);
   }
 	// ..
 };
