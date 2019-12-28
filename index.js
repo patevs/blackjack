@@ -13,44 +13,12 @@ const doc = require('./src/deck');
 
 // Game model
 const Game = require('./src/Game').Game;
-// const Game = require('./src/Game');
-// import Game from './src/Game';
 
 /***************
  * * FUNCTIONS *
  ***************/
 
-/*
-const playGame = () => {
-	//
-  // Shuffle deck
-  let deck = doc.randomizedDeck();
-  dealHand(deck);
-	//
-};
-
-const dealHand = (deck) => {
-  //
-  // Handle edge cases
-  // if(deck.length < 9) process.exit();
-  // Burn a card
-  deck.pop();
-  // console.log(deck.length);
-
-  let playerHand = [];
-  let dealerHand = [];
-
-  // Deal the cards
-  playerHand.push(deck.pop());
-  dealerHand.push(deck.pop());
-  playerHand.push(deck.pop());
-  dealerHand.push(deck.pop());
-
-  console.log(playerHand);
-  // console.log(playerHand[0] + " " + playerHand[1]);
-  //
-};
-*/
+//
 
 /*****************
  * * ENTRY POINT *
