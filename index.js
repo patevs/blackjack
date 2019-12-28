@@ -36,14 +36,21 @@ const loop = () => {
 	while(playing && deck.length > 0){
 		hand++;
 		console.log("Hand Number : " + hand);
-		let card = deck.pop();
-		console.log(card);
-	}
+		// let card = deck.pop();
+		// console.log(card);
+    dealHand(deck);
+  }
 	// ..
 };
 
 const dealHand = (deck) => {
-	// ..
+  // ..
+  deck.pop();
+
+  let hand = deck.pop();
+
+  console.log(hand);
+
 	// ..
 };
 
