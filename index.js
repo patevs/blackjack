@@ -9,10 +9,9 @@
  *************/
 
 // Deck-o-cards
-const doc = require('./src/deck');
-
+// const doc = require('./src/deck');
 // Game model
-const Game = require('./src/Game').Game;
+// const Game = require('./src/Game').Game;
 
 /***************
  * * FUNCTIONS *
@@ -29,10 +28,10 @@ const Game = require('./src/Game').Game;
   console.log("\n --- BLACKJACK --- \n");
   // playGame();
   // Shuffle deck
-  let deck = doc.randomizedDeck();
+  // let deck = doc.randomizedDeck();
   // Create new game
-  let game = new Game(deck);
-  game.play();
+  // let game = new Game(deck);
+  // game.play();
   //
 })();
 
