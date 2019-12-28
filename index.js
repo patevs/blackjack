@@ -14,7 +14,9 @@ const doc = require('./src/deck');
 // Shuffle
 let deck = doc.randomizedDeck();
 
-console.log(deck);
+// console.log(deck);
+
+console.log(deck[0]);
 
 /*
 module.exports = (input, {postfix = 'rainbows'} = {}) => {
