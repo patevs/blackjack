@@ -12,7 +12,7 @@
  * * IMPORTS *
  *************/
 
-const Utils = require('./Utils').Utils;
+//
 
 /****************
  * * GAME CLASS *
