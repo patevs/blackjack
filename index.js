@@ -41,12 +41,12 @@ const loop = () => {
     // console.log("Hand Number : " + hand);
     // let card = deck.pop();
 		// console.log(card);
-    playHand(deck);
+    dealHand(deck);
   }
 	// ..
 };
 
-const playHand = (deck) => {
+const dealHand = (deck) => {
   // ..
   if(deck.length < 9) process.exit();
   hand++;
@@ -64,8 +64,31 @@ const playHand = (deck) => {
   playerHand.push(deck.pop());
   dealerHand.push(deck.pop());
 
-  console.log(playerHand);
+  playHand(dealerHand, playerHand);
+
+  // console.log(playerHand);
   // ..
+};
+
+const playHand = (dealer, player) => {
+  //
+  // console.log(playerHand);
+  console.log("Your Hand : " + player);
+  //
+  console.log("Dealer Hand : " + dealer);
+  // var name = window.
+  // let action = prompt("[C]heck, [B]et 10, or [F]old");
+  // console.log(" > " + action);
+  const readline = require('readline').createInterface({
+    input: process.stdin,
+    output: process.stdout
+  })
+
+  readline.question(`[C]heck, [B]et 10, or [F]old`, (name) => {
+    console.log(`You ${name}!`)
+    readline.close()
+  })
+
 };
 
 /*
