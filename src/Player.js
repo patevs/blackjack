@@ -18,6 +18,13 @@ class Player {
     this._actions = [];
     this._history = [];
   }
+  // Functions
+  get hand() {
+    return this._hand;
+  }
+  set hand(hand) {
+    this._hand = hand;
+  }
   present() {
     return "Your hand : " + this.hand;
   }
