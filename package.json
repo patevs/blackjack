@@ -1,10 +1,10 @@
 {
 	"name": "blackjack",
 	"version": "0.0.0",
-	"description": "blackjack",
+    "description": "blackjack",
+    "author": "patevs",
 	"license": "MIT",
 	"repository": "patevs/blackjack",
-	"author": "patevs",
 	"bin": "cli.js",
 	"engines": {
 		"node": ">=8"
