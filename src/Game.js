@@ -47,9 +47,11 @@ class Game {
     this.showHands(dealerHand, playerHand);
   }
   showHands(dealer, player) {
-    // Calculate hand value
     console.log("Your Hand : " + player);
     console.log("Dealer's Hand : " + dealer);
+  }
+  scoreHand(hand) {
+    // Calculate hand value
   }
   // Getters & Setters
   get deck() {
