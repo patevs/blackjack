@@ -1,5 +1,6 @@
 /**
  *  * src/Deck.js
+ *  https://github.com/DanielDwyer/deck-o-cards
  */
 
 'use-strict'
