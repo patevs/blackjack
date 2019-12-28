@@ -66,8 +66,8 @@ const dealHand = (deck) => {
   dealerHand.push(deck.pop());
 
   // playHand(dealerHand, playerHand);
-
   console.log(playerHand);
+  // console.log(playerHand[0] + " " + playerHand[1]);
   // ..
 };
 
