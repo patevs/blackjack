@@ -8,9 +8,15 @@
 
 'use-strict'
 
+/******************
+ * * PLAYER CLASS *
+ ******************/
+
 class Player {
   constructor(hand) {
-    this.hand = hand;
+    this._hand = hand;
+    this._actions = [];
+    this._history = [];
   }
   present() {
     return "Your hand : " + this.hand;
@@ -35,7 +41,7 @@ class Model extends Player {
 }
 */
 
-// usage:
+// Usage:
 // player = new Player(["card0", "card1"]);
 // console.log(player.present());
 
