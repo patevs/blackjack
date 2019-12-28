@@ -8,9 +8,11 @@
  * * IMPORTS *
  *************/
 
-const deck = require('src/deck');
+// Deck-o-cards
+const doc = require('./src/deck');
 
-deck.randomizedDeck();
+// Shuffle
+let deck = doc.randomizedDeck();
 
 console.log(deck);
 
