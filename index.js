@@ -9,12 +9,16 @@
  *************/
 
 // Deck-o-cards
-const doc = require('./src/deck');
+// const doc = require('./src/deck');
+
+// Game model
+const game = require('src/Game');
 
 /***************
  * * FUNCTIONS *
  ***************/
 
+/*
 const playGame = () => {
 	//
   // Shuffle deck
@@ -44,6 +48,7 @@ const dealHand = (deck) => {
   // console.log(playerHand[0] + " " + playerHand[1]);
   //
 };
+*/
 
 /*****************
  * * ENTRY POINT *
@@ -52,7 +57,11 @@ const dealHand = (deck) => {
 (() => {
   //
   console.log("\n --- BLACKJACK --- \n");
-  playGame();
+  // playGame();
+  // Shuffle deck
+  let deck = doc.randomizedDeck();
+  // Create new game
+  let game = new Game(deck);
   //
 })();
 
