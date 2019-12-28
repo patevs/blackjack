@@ -30,6 +30,7 @@ const Player = require('./src/Player').Player;
   console.log("\n --- BLACKJACK --- \n");
   // Create dealer and player
   let dealer = new Player();
+  let player = new Player();
   // Shuffle deck
   // let deck = doc.randomizedDeck();
   // Create new game

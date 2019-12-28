@@ -27,7 +27,7 @@ class Player {
     this._hand = hand;
   }
   present() {
-    return "Your hand : " + this.hand;
+    return "Your hand : " + this._hand;
   }
 }
 
