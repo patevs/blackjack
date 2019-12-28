@@ -1,0 +1,22 @@
+{
+	"name": "blackjack",
+	"version": "0.0.0",
+	"description": "blackjack",
+	"license": "MIT",
+	"repository": "patevs/blackjack",
+	"author": "patevs",
+	"bin": "cli.js",
+	"engines": {
+		"node": ">=8"
+	},
+	"scripts": {
+		"test": "xo && ava"
+	},
+	"dependencies": {
+		"meow": "^5.0.0"
+	},
+	"devDependencies": {
+		"ava": "^2.1.0",
+		"xo": "^0.24.0"
+	}
+}
