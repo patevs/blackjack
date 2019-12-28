@@ -7,6 +7,8 @@
  *  https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects
  */
 
+'use-strict'
+
 class Player {
   constructor(hand) {
     this.hand = hand;
