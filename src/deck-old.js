@@ -1,5 +1,5 @@
 /**
- *  * src/deck.js
+ *  * src/deck-old.js
  *  https://github.com/DanielDwyer/deck-o-cards
  */
 
