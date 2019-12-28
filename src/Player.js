@@ -11,9 +11,13 @@ class Player {
   constructor(hand) {
     this.hand = hand;
   }
+  present() {
+    return "Your hand : " + this.hand;
+  }
 }
 
 // usage:
 // player = new Player(["card0", "card1"]);
+// console.log(player.present());
 
 // EOF //
