@@ -9,10 +9,12 @@
  *************/
 
 // Deck-o-cards
-// const doc = require('./src/deck');
+const doc = require('./src/deck');
 
 // Game model
-const game = require('src/Game');
+const Game = require('./src/Game').Game;
+// const Game = require('./src/Game');
+// import Game from './src/Game';
 
 /***************
  * * FUNCTIONS *

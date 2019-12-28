@@ -29,6 +29,10 @@ class Game {
   }
 }
 
+module.exports = {
+  Game
+};
+
 /*
 const playGame = () => {
 	//
