@@ -48,32 +48,6 @@ class Game {
     this._dealer.addCardToHand(this._deck.pop());
 
     console.log(this._player.getHand());
-
-    // let playerHand = [];
-    // let dealerHand = [];
-
-    // Deal the cards
-    // playerHand.push(this._deck.pop());
-    // dealerHand.push(this._deck.pop());
-    // playerHand.push(this._deck.pop());
-    // dealerHand.push(this._deck.pop());
-
-    // console.log(playerHand);
-    // this.showHands(dealerHand, playerHand);
-  }
-  showHands(dealer, player) {
-    console.log("Your Hand : " + player);
-    console.log("Dealer's Hand : " + dealer);
-  }
-  scoreHand(hand) {
-    // Calculate hand value
-  }
-  // Getters & Setters
-  get deck() {
-    return this._deck;
-  }
-  set deck(deck) {
-    this._deck = deck;
   }
 }
 
