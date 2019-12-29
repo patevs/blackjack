@@ -43,10 +43,9 @@ class Game {
 
     // Deal to player first
     this._player.addCardToHand(this._deck.pop());
-    // this._player.hand(this._deck.pop());
-    // this._dealer.hand(this._deck.pop());
-    // this._player.hand(this._deck.pop());
-    // this._dealer.hand(this._deck.pop());
+    this._dealer.addCardToHand(this._deck.pop());
+    this._player.addCardToHand(this._deck.pop());
+    this._dealer.addCardToHand(this._deck.pop());
 
     console.log(this._player.getHand());
 
