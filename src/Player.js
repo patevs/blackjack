@@ -13,8 +13,8 @@
  ******************/
 
 class Player {
-  constructor(isDealer) {
-    this._isDealer = isDealer;
+  constructor() {
+    // this._isDealer = isDealer;
     this._hand = [];
     // this._actions = [];
     // this._history = [];
@@ -32,17 +32,35 @@ class Player {
     return this._hand[0][2] + this._hand[1][2];
   }
   printHand() {
-    if (this._isDealer) {
-      console.log(" DEALERS HAND : ");
-    } else {
-      console.log(" YOUR HAND : ");
-      let card0 = this._hand[0][2] + " " + this._hand[0][0];
-      let card1 = this._hand[1][2] + " " + this._hand[1][0];
-      console.log("  ------   ------ ");
-      console.log(" | " + card0 + " | | " + card1 + " | ");
-      console.log("  ------   ------ ");
-      console.log("\n You Have : " + this.scoreHand() + "\n");
-    }
+    console.log(" YOUR HAND : \n");
+    let card0 = this._hand[0][2] + " " + this._hand[0][0];
+    let card1 = this._hand[1][2] + " " + this._hand[1][0];
+    console.log("  ------   ------ ");
+    console.log(" | " + card0 + " | | " + card1 + " | ");
+    console.log("  ------   ------ ");
+    console.log("\n You have : " + this.scoreHand() + "\n");
+  }
+}
+
+/******************
+ * * DEALER CLASS *
+ ******************/
+
+class Dealer extends Player {
+  constructor(){
+    super();
+    this.isDealer = true;
+  }
+  scoreHand() {
+    return this._hand[0][2]; // + this._hand[1][2];
+  }
+  printHand() {
+    console.log(" DEALERS HAND : \n");
+    let card0 = this._hand[0][2] + " " + this._hand[0][0];
+    console.log("  ------ ");
+    console.log(" | " + card0 + " | ");
+    console.log("  ------ ");
+    console.log("\n Dealer has : " + this.scoreHand() + "\n");
   }
 }
 
@@ -51,7 +69,8 @@ class Player {
  *************/
 
 module.exports = {
-  Player
+  Player,
+  Dealer
 };
 
 // EOF //
