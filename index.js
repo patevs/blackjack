@@ -46,7 +46,7 @@ const title = chalk.bold.green;
   // const game = new Game();
   // Start game
   // game.play();
-  // new Game().play();
+  new Game().play();
   //
 })();
 
