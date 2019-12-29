@@ -57,7 +57,7 @@ class Game {
   }
   playHand() {
     // console.log("Playing Hand...");
-    console.log(boxen('unicorn', {padding: 1, margin: 1, borderStyle: 'double'}));
+    // console.log(boxen('unicorn', {padding: 1, margin: 1, borderStyle: 'double'}));
   }
 }
 

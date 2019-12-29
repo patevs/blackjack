@@ -37,13 +37,13 @@ class Player {
     return this._hand[0][2] + this._hand[1][2];
   }
   printHand() {
-    console.log("\n YOUR HAND : \n");
+    console.log("\n YOUR HAND : ");
     let card0 = this._hand[0][2] + " " + this._hand[0][0];
     let card1 = this._hand[1][2] + " " + this._hand[1][0];
-    console.log(boxen(card0, {padding: 1, margin: 1}));
-    console.log("  ------   ------ ");
-    console.log(" | " + card0 + " | | " + card1 + " | ");
-    console.log("  ------   ------ ");
+    console.log(boxen(card0, {float: 'left', margin: 1}) + boxen(card1, {float: 'left', margin: 1}));
+    // console.log("  ------   ------ ");
+    // console.log(" | " + card0 + " | | " + card1 + " | ");
+    // console.log("  ------   ------ ");
     console.log("\n You have : " + this.scoreHand() + "\n");
   }
 }
@@ -61,11 +61,12 @@ class Dealer extends Player {
     return this._hand[0][2]; // + this._hand[1][2];
   }
   printHand() {
-    console.log(" DEALERS HAND : \n");
+    console.log(" DEALERS HAND : ");
     let card0 = this._hand[0][2] + " " + this._hand[0][0];
-    console.log("  ------ ");
-    console.log(" | " + card0 + " | ");
-    console.log("  ------ ");
+    console.log(boxen(card0, {float: 'left', margin: 1}));
+    // console.log("  ------ ");
+    // console.log(" | " + card0 + " | ");
+    // console.log("  ------ ");
     console.log("\n Dealer has : " + this.scoreHand() + "\n");
   }
 }
