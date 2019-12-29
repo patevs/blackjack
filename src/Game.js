@@ -12,6 +12,8 @@
  * * IMPORTS *
  *************/
 
+// const inquirer = require('inquirer');
+
 // Deck of cards
 const doc = require('./Deck');
 
@@ -34,7 +36,7 @@ class Game {
     // console.log("\nPlaying game...\n");
     // Deal a hand
     this.dealHand();
-    this.playHand();
+    // this.playHand();
   }
   dealHand() {
     // Handle edge cases
@@ -54,6 +56,7 @@ class Game {
     // Display players hand
     this._player.printHand();
   }
+  /*
   playHand() {
     // prompt user input
     inquirer
@@ -72,6 +75,7 @@ class Game {
         console.log(JSON.stringify(answers, null, '  '));
       });
   }
+  */
 }
 
 /*************
