@@ -8,6 +8,8 @@
  * * IMPORTS *
  *************/
 
+const chalk = require('chalk');
+
 // Deck-o-cards
 // const doc = require('./src/deck');
 
@@ -16,6 +18,14 @@
 
 // Game model
 const Game = require('./src/Game').Game;
+
+/***************
+ * * CONSTANTS *
+ ***************/
+
+const log = console.log;
+// const error = chalk.bold.red;
+const title = chalk.bold.green;
 
 /***************
  * * FUNCTIONS *
@@ -30,7 +40,8 @@ const Game = require('./src/Game').Game;
 (() => {
   //
   require('clear')();
-  console.log("\n --- BLACKJACK --- \n");
+  // console.log("\n --- BLACKJACK --- \n");
+  log("\n --- " + title("BLACKJACK") + " --- \n");
   // Create new game
   // const game = new Game();
   // Start game

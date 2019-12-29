@@ -32,7 +32,7 @@ class Player {
     return this._hand[0][2] + this._hand[1][2];
   }
   printHand() {
-    console.log(" YOUR HAND : \n");
+    console.log("\n YOUR HAND : \n");
     let card0 = this._hand[0][2] + " " + this._hand[0][0];
     let card1 = this._hand[1][2] + " " + this._hand[1][0];
     console.log("  ------   ------ ");
