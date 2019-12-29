@@ -29,6 +29,7 @@ const Game = require('./src/Game').Game;
 
 (() => {
   //
+  require('clear')();
   console.log("\n --- BLACKJACK --- \n");
   // Create new game
   // const game = new Game();
