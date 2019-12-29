@@ -56,7 +56,7 @@ class Game {
     this._player.printHand();
   }
   playHand() {
-    console.log("Playing Hand...");
+    // console.log("Playing Hand...");
     console.log(boxen('unicorn', {padding: 1, margin: 1, borderStyle: 'double'}));
   }
 }
