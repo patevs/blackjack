@@ -10,6 +10,8 @@
 
 const chalk = require('chalk');
 
+const { Select } = require('enquirer');
+
 // Deck-o-cards
 // const doc = require('./src/deck');
 
@@ -47,6 +49,15 @@ const title = chalk.bold.green;
   // Start game
   // game.play();
   // new Game().play();
+  const prompt = new Select({
+    name: 'color',
+    message: 'Pick a flavor',
+    choices: ['apple', 'grape', 'watermelon', 'cherry', 'orange']
+  });
+
+  prompt.run()
+    .then(answer => console.log('Answer:', answer))
+    .catch(console.error);
   //
 })();
 
