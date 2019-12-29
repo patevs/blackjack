@@ -9,7 +9,9 @@
 		"start": "node index.js",
 		"test": "xo && ava"
 	},
-	"dependencies": {},
+	"dependencies": {
+		"inquirer": "^7.0.1"
+	},
 	"devDependencies": {
 		"ava": "^2.1.0",
 		"eslint": "^6.8.0",
