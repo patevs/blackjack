@@ -47,8 +47,9 @@ class Game {
     this._player.addCardToHand(this._deck.pop());
     this._dealer.addCardToHand(this._deck.pop());
 
-    console.log(this._player.getHand());
-    this._player.scoreHand();
+    // console.log(this._player.getHand());
+    // this._player.scoreHand();
+    this._player.printHand();
   }
 }
 
