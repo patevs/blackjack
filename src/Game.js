@@ -25,8 +25,8 @@ const Player = require('./Player').Player;
 class Game {
   constructor() {
     this._deck = doc.randomizedDeck();
-    this._dealer = new Player();
-    this._player = new Player();
+    this._dealer = new Player(true);
+    this._player = new Player(false);
   }
   // Functions
   play() {
