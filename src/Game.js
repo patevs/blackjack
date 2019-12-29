@@ -56,6 +56,21 @@ class Game {
   }
   playHand() {
     // prompt user input
+    inquirer
+      .prompt([
+        {
+          type: 'list',
+          name: 'theme',
+          message: 'What do you want to do?',
+          choices: [
+            'Order a pizza',
+            'Make a reservation',
+          ]
+        }
+      ])
+      .then(answers => {
+        console.log(JSON.stringify(answers, null, '  '));
+      });
   }
 }
 
