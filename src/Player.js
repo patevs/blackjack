@@ -26,12 +26,9 @@ class Player {
     return this._hand;
   }
   scoreHand() {
-    // let sum = -1;
-    // let value = this._hand[0][2];
-
-    const score = this._hand[0][2] + this._hand[1][2];
-
-    console.log(score);
+    // const score = this._hand[0][2] + this._hand[1][2];
+    // console.log(score);
+    return this._hand[0][2] + this._hand[1][2];
   }
 }
 
