@@ -14,7 +14,6 @@
 
 class Player {
   constructor() {
-    // this._isDealer = isDealer;
     this._hand = [];
     // this._actions = [];
     // this._history = [];
