@@ -30,7 +30,7 @@ class Game {
   }
   // Functions
   play() {
-    console.log("\nPlaying game...\n");
+    // console.log("\nPlaying game...\n");
     // Deal a hand
     this.dealHand();
   }
@@ -47,8 +47,9 @@ class Game {
     this._player.addCardToHand(this._deck.pop());
     this._dealer.addCardToHand(this._deck.pop());
 
-    // console.log(this._player.getHand());
-    // this._player.scoreHand();
+    // Display dealers hand
+    this._dealer.printHand();
+    // Display players hand
     this._player.printHand();
   }
 }
