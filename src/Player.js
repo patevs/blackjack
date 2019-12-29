@@ -25,6 +25,11 @@ class Player {
   getHand() {
     return this._hand;
   }
+  scoreHand() {
+    // let sum = -1;
+    let value = this._hand[0][2];
+    console.log(value);
+  }
 }
 
 /*************
