@@ -12,7 +12,7 @@
  * * IMPORTS *
  *************/
 
-// const inquirer = require('inquirer');
+const boxen = require('boxen');
 
 // Deck of cards
 const doc = require('./Deck');
@@ -33,7 +33,6 @@ class Game {
   }
   // Functions
   play() {
-    // console.log("\nPlaying game...\n");
     // Deal a hand
     this.dealHand();
     this.playHand();
@@ -58,27 +57,8 @@ class Game {
   }
   playHand() {
     console.log("Playing Hand...");
+    console.log(boxen('unicorn', {padding: 1, margin: 1, borderStyle: 'double'}));
   }
-  /*
-  playHand() {
-    // prompt user input
-    inquirer
-      .prompt([
-        {
-          type: 'list',
-          name: 'theme',
-          message: 'What do you want to do?',
-          choices: [
-            'Order a pizza',
-            'Make a reservation',
-          ]
-        }
-      ])
-      .then(answers => {
-        console.log(JSON.stringify(answers, null, '  '));
-      });
-  }
-  */
 }
 
 /*************
