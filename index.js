@@ -47,14 +47,6 @@ const title = chalk.bold.green;
   // Start game
   // game.play();
   new Game().play();
-  // Create dealer and player
-  // let dealer = new Player();
-  // let player = new Player();
-  // Shuffle deck
-  // let deck = doc.randomizedDeck();
-  // Create new game
-  // let game = new Game(deck);
-  // game.play();
   //
 })();
 
