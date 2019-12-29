@@ -14,20 +14,16 @@
 
 class Player {
   constructor() {
-    // this._hand = hand;
     this._hand = [];
-    this._actions = [];
-    this._history = [];
+    // this._actions = [];
+    // this._history = [];
   }
   // Functions
-  get hand() {
+  addCardToHand(card) {
+    this._hand.push(card);
+  }
+  getHand() {
     return this._hand;
-  }
-  set hand(hand) {
-    this._hand = hand;
-  }
-  present() {
-    return "Your hand : " + this._hand;
   }
 }
 

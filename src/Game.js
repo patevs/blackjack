@@ -32,7 +32,7 @@ class Game {
   play() {
     console.log("\nPlaying game...\n");
     // Deal a hand
-    // this.dealHand();
+    this.dealHand();
   }
   dealHand() {
     // Handle edge cases
@@ -42,12 +42,13 @@ class Game {
     // console.log(deck.length);
 
     // Deal to player first
-    this._player.hand(this._deck.pop());
-    this._dealer.hand(this._deck.pop());
-    this._player.hand(this._deck.pop());
-    this._dealer.hand(this._deck.pop());
+    this._player.addCardToHand(this._deck.pop());
+    // this._player.hand(this._deck.pop());
+    // this._dealer.hand(this._deck.pop());
+    // this._player.hand(this._deck.pop());
+    // this._dealer.hand(this._deck.pop());
 
-    console.log(_player.hand());
+    console.log(this._player.getHand());
 
     // let playerHand = [];
     // let dealerHand = [];
