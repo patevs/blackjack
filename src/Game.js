@@ -36,7 +36,7 @@ class Game {
     // console.log("\nPlaying game...\n");
     // Deal a hand
     this.dealHand();
-    // this.playHand();
+    this.playHand();
   }
   dealHand() {
     // Handle edge cases
@@ -55,6 +55,9 @@ class Game {
     this._dealer.printHand();
     // Display players hand
     this._player.printHand();
+  }
+  playHand() {
+    console.log("Playing Hand...");
   }
   /*
   playHand() {
