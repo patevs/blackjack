@@ -8,6 +8,12 @@
 
 'use-strict'
 
+/*************
+ * * IMPORTS *
+ *************/
+
+const boxen = require('boxen');
+
 /******************
  * * PLAYER CLASS *
  ******************/
@@ -34,6 +40,7 @@ class Player {
     console.log("\n YOUR HAND : \n");
     let card0 = this._hand[0][2] + " " + this._hand[0][0];
     let card1 = this._hand[1][2] + " " + this._hand[1][0];
+    console.log(boxen(card0, {padding: 1, margin: 1}));
     console.log("  ------   ------ ");
     console.log(" | " + card0 + " | | " + card1 + " | ");
     console.log("  ------   ------ ");
