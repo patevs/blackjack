@@ -1,8 +1,12 @@
+# ---------- #
+# .gitignore #
+# ---------- #
 
 # Created by https://www.gitignore.io/api/node
 # Edit at https://www.gitignore.io/?templates=node
 
-### Node ###
+### NodeJS  ###
+
 # Logs
 logs
 *.log
@@ -24,3 +28,5 @@ node_modules/
 .env.test
 
 # End of https://www.gitignore.io/api/node
+
+# EOF #
