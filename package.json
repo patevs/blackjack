@@ -6,6 +6,7 @@
 	"license": "MIT",
 	"repository": "https://github.com/patevs/blackjack.git",
 	"scripts": {
+    "updates": "npx ncu",
 		"start": "node index.js",
 		"test": "xo && ava"
 	},
