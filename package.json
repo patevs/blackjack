@@ -10,7 +10,7 @@
 		"test": "xo && ava"
 	},
 	"dependencies": {
-		"boxen": "^4.2.0",
+		"boxen": "^5.0.0",
 		"chalk": "^4.1.0",
 		"clear": "^0.1.0"
 	},
