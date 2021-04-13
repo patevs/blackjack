@@ -6,7 +6,7 @@
 	"license": "MIT",
 	"repository": "https://github.com/patevs/blackjack.git",
 	"scripts": {
-    "updates": "npx ncu",
+		"updates": "npx ncu",
 		"start": "node index.js",
 		"test": "xo && ava"
 	},
@@ -17,7 +17,7 @@
 	},
 	"devDependencies": {
 		"ava": "^3.15.0",
-		"eslint": "^7.21.0",
+		"eslint": "^7.24.0",
 		"eslint-config-prettier": "^8.1.0",
 		"eslint-plugin-prettier": "^3.3.1",
 		"prettier": "^2.2.1",
