@@ -4441,7 +4441,7 @@ unset-value@^1.0.0:
     has-value "^0.3.1"
     isobject "^3.0.0"
 
-update-notifier@^5.0.1, update-notifier@^5.1.0:
+update-notifier@^5.0.1:
   version "5.1.0"
   resolved "https://registry.yarnpkg.com/update-notifier/-/update-notifier-5.1.0.tgz#4ab0d7c7f36a231dd7316cf7729313f0214d9ad9"
   integrity sha512-ItnICHbeMh9GqUy31hFPrD1kcuZ3rpxDZbf4KUDavXwS0bW5m7SLbDQpGX3UYr072cbrF5hFUs3r5tUsPwjfHw==
@@ -4574,10 +4574,10 @@ xdg-basedir@^4.0.0:
   resolved "https://registry.yarnpkg.com/xdg-basedir/-/xdg-basedir-4.0.0.tgz#4bc8d9984403696225ef83a1573cbbcb4e79db13"
   integrity sha512-PSNhEJDejZYV7h50BohL09Er9VaIefr2LMAf3OEmpCkjOi34eYyQYAXUTjEQtZJTKcF0E2UKTh+osDLsgNim9Q==
 
-xo@^0.40.1:
-  version "0.40.1"
-  resolved "https://registry.yarnpkg.com/xo/-/xo-0.40.1.tgz#5f9d7ca80d0f99b4d744b30987b92686a233b724"
-  integrity sha512-cle9DGwXjiL/Xu4KU2uajBLaNgi1K97BWO2sRJwAodWSRSdDFgLWdVCGCYQWCvRx/PI9yDaMM/KIng3U3yYPdQ==
+xo@^0.40.3:
+  version "0.40.3"
+  resolved "https://registry.yarnpkg.com/xo/-/xo-0.40.3.tgz#35f21ff19fc4080dd9b888bee520434955b137e8"
+  integrity sha512-g39uOETzRMQgp+vwykQTs5of0lwGuT1d0ebUzV04BRc0Ie5yn3ddKTd9ORUG6PC2NjcI3vE4Iad13Tddmkfovw==
   dependencies:
     "@eslint/eslintrc" "^0.4.1"
     "@typescript-eslint/eslint-plugin" "^4.22.0"
@@ -4624,7 +4624,6 @@ xo@^0.40.1:
     slash "^3.0.0"
     to-absolute-glob "^2.0.2"
     typescript "^4.2.4"
-    update-notifier "^5.1.0"
 
 y18n@^5.0.5:
   version "5.0.8"
