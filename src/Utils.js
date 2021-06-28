@@ -5,9 +5,7 @@
 
 'use-strict'
 
-/******************
- * * UTILS CLASS *
- ******************/
+// UTILS CLASS //
 
 class Utils {
   // constructor() { }
@@ -48,6 +46,8 @@ class Utils {
     return sum;
   }
 }
+
+// EXPORTS //
 
 module.exports = {
   Utils

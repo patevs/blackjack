@@ -8,9 +8,7 @@
 
 'use-strict'
 
-/*************
- * * IMPORTS *
- *************/
+// IMPORTS //
 
 const boxen = require('boxen');
 
@@ -21,9 +19,7 @@ const doc = require('./Deck');
 const Dealer = require('./Player').Dealer;
 const Player = require('./Player').Player;
 
-/****************
- * * GAME CLASS *
- ****************/
+// GAME CLASS //
 
 class Game {
   constructor() {
@@ -61,9 +57,7 @@ class Game {
   }
 }
 
-/*************
- * * EXPORTS *
- *************/
+// EXPORTS //
 
 module.exports = {
   Game

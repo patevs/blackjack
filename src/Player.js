@@ -8,15 +8,11 @@
 
 'use-strict'
 
-/*************
- * * IMPORTS *
- *************/
+// IMPORTS //
 
 const boxen = require('boxen');
 
-/******************
- * * PLAYER CLASS *
- ******************/
+// PLAYER CLASS //
 
 class Player {
   constructor() {
@@ -48,9 +44,7 @@ class Player {
   }
 }
 
-/******************
- * * DEALER CLASS *
- ******************/
+// DEALER CLASS //
 
 class Dealer extends Player {
   constructor(){
@@ -71,9 +65,7 @@ class Dealer extends Player {
   }
 }
 
-/*************
- * * EXPORTS *
- *************/
+// EXPORTS //
 
 module.exports = {
   Player,

@@ -4,9 +4,7 @@
 
 'use strict';
 
-/*************
- * * IMPORTS *
- *************/
+// IMPORTS //
 
 const chalk = require('chalk');
 
@@ -19,23 +17,17 @@ const chalk = require('chalk');
 // Game model
 const Game = require('./src/Game').Game;
 
-/***************
- * * CONSTANTS *
- ***************/
+// CONSTANTS //
 
 const log = console.log;
 // const error = chalk.bold.red;
 const title = chalk.bold.green;
 
-/***************
- * * FUNCTIONS *
- ***************/
+// FUNCTIONS //
 
-//
+// ..
 
-/*****************
- * * ENTRY POINT *
- *****************/
+// ENTRY POINT //
 
 (() => {
   //

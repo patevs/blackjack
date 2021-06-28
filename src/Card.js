@@ -4,23 +4,17 @@
 
 'use-strict'
 
-/*************
- * * IMPORTS *
- *************/
+// IMPORTS //
 
-//
+// ..
 
-/****************
- * * CARD CLASS *
- ****************/
+// CARD CLASS //
 
 class Card {
   // constructor() { }
 }
 
-/*************
- * * EXPORTS *
- *************/
+// EXPORTS //
 
 module.exports = {
   Card

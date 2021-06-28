@@ -5,15 +5,11 @@
 
 'use-strict'
 
-/*************
- * * IMPORTS *
- *************/
+// IMPORTS //
 
-//
+// ..
 
-/***************
- * * FUNCTIONS *
- ***************/
+// FUNCTIONS //
 
 const randomizedDeck = () => {
 
@@ -90,9 +86,7 @@ const shuffleDeck = (deck) => {
   return deck
 };
 
-/*************
- * * EXPORTS *
- *************/
+// EXPORTS //
 
 // randomizedDeck()  --uncomment for testing (when using node index.js)
 
