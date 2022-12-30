@@ -1,6 +1,6 @@
 {
 	"name": "blackjack",
-	"version": "0.6.0",
+	"version": "0.7.0",
 	"description": "blackjack",
 	"author": "patevs",
 	"license": "MIT",
@@ -9,8 +9,8 @@
 		"start": "node index.js",
 		"test": "xo && ava",
 		"updates": "npx ncu",
-    "release": "npx np"
-  },
+		"release": "npx np"
+	},
 	"dependencies": {
 		"boxen": "^5.1.2",
 		"chalk": "^4.1.2",
