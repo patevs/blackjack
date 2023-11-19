@@ -21,7 +21,7 @@
 		"eslint": "^8.54.0",
 		"eslint-config-prettier": "^8.8.0",
 		"eslint-plugin-prettier": "^5.0.1",
-		"prettier": "^3.0.0",
+		"prettier": "^3.1.0",
 		"xo": "^0.54.2"
 	},
 	"eslint": {
