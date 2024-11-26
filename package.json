@@ -9,7 +9,7 @@
 		"start": "node index.js",
 		"test": "xo && ava",
 		"updates": "npx ncu",
-		"release": "npx np"
+		"release": "npx np --no-publish --no-tests"
 	},
 	"dependencies": {
 		"boxen": "^5.1.2",
