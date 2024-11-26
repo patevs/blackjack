@@ -22,7 +22,7 @@
 		"eslint-config-prettier": "^9.1.0",
 		"eslint-plugin-prettier": "^5.2.1",
 		"prettier": "^3.4.0",
-		"xo": "^0.56.0"
+		"xo": "^0.59.3"
 	},
 	"eslint": {
 		"extends": [
